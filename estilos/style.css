@@ -1,0 +1,62 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 20px repeat(6, 1fr) 20px;
+    
+}
+.caja1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;  
+    height: 240px;
+    width: 240px;
+    background-color: black;
+    
+
+}
+
+.caja2{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height: 240px;
+    width: 240px;
+    background-color: rgb(165, 75, 42);
+    
+}
+
+.caja3{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    height: 240px;
+    width: 240px;
+    background-color: rgb(79, 165, 42);
+    
+}
+
+.caja4{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    height: 240px;
+    width: 240px;
+    background-color: rgb(165, 42, 132);
+    
+}
+
+.caja5{
+      
+    height: 240px;
+    width: 240px;
+    background-color: rgb(50, 42, 165);
+    
+
+}
+
+.caja6{
+    height: 240px;
+    width: 240px;
+    background-color: rgb(42, 155, 165);
+    
+
+
+}
